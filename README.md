@@ -133,6 +133,7 @@ cd back-end
     - Abra o arquivo src/main/resources/application.properties
 
 ```properties
+spring.datasource.url=jdbc:mysql://localhost:3306/YOUR_DATABASE?createDatabaseIfNotExist=true&useTimezone=true&serverTimezone=UTC
 spring.datasource.username=YOUR_USERNAME
 spring.datasource.password=YOUR_PASSWORD
 ```
