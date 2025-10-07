@@ -1,4 +1,4 @@
-# 💡 Desafio: Sistema de Indicação (Referral System)
+## 💡 Desafio: Sistema de Indicação (Referral System)
 
 Uma aplicação web **SPA (Single Page Application)** completa que permite o cadastro de usuários e implementa um sistema de pontos por indicação. Desenvolvido como parte de um desafio técnico, o projeto demonstra a aplicação de boas práticas de arquitetura, desenvolvimento full-stack e responsividade.
 
@@ -6,23 +6,24 @@ Uma aplicação web **SPA (Single Page Application)** completa que permite o cad
 
 ## 🧭 Sumário
 
-1. [Visão Geral do Projeto](#-visão-geral-do-projeto)
-2. [Funcionalidades](#-funcionalidades)
-3. [Arquitetura e Tecnologias Utilizadas](#-arquitetura-e-tecnologias-utilizadas)
-4. [Como Executar o Projeto Localmente](#️-como-executar-o-projeto-localmente)
-5. [Colaboração com IA 🤖](#-colaboração-com-ia-)
-6. [Aprendizados](#-aprendizados)
-7. [Autor](#-autor)
+1. [Visão Geral do Projeto](#visao-geral-do-projeto)
+2. [Funcionalidades](#funcionalidades)
+3. [Arquitetura e Tecnologias Utilizadas](#arquitetura-e-tecnologias-utilizadas)
+4. [Como Executar o Projeto Localmente](#como-executar-o-projeto-localmente)
+5. [Colaboração com IA 🤖](#colaboracao-com-ia)
+6. [Aprendizados](#aprendizados)
+7. [Autor](#autor)
 
 ---
-
-# 🧩 Visão Geral do Projeto
+<a id="visao-geral-do-projeto"></a>
+## 🧩 Visão Geral do Projeto
 
 O Referral System é uma aplicação de página única que simula um sistema de recompensas real. A plataforma permite que usuários se cadastrem, recebam um link de indicação exclusivo e acumulem pontos ao trazer novos membros. O projeto foi desenhado com foco na clareza do código, modularidade e na demonstração de habilidades tanto no front-end quanto no back-end.
 
 ---
 
-# ⚙️ Funcionalidades
+<a id="funcionalidades"></a>
+## ⚙️ Funcionalidades
 
 - ✅ Autenticação Segura: Cadastro e Login de usuários com validação de dados em tempo real.
 
@@ -66,6 +67,7 @@ O Referral System é uma aplicação de página única que simula um sistema de 
   - A pontuação é atualizada ao recarregar a página.
 ---
 
+<a id="arquitetura-e-tecnologias-utilizadas"></a>
 ## 🏗 Arquitetura e Tecnologias Utilizadas
 
 Este projeto foi construído utilizando uma arquitetura de software bem definida para garantir escalabilidade e manutenibilidade.
@@ -103,6 +105,7 @@ Este projeto foi construído utilizando uma arquitetura de software bem definida
   Um sistema de gerenciamento de banco de dados relacional confiável, seguro e amplamente suportado, ideal para aplicações que exigem consistência de dados.
 ---
 
+<a id="como-executar-o-projeto-localmente"></a>
 ## 🚀 Como Executar o Projeto Localmente
 
 Siga os passos abaixo para configurar e rodar a aplicação em seu ambiente de desenvolvimento.
@@ -161,6 +164,7 @@ live-server --port=5500 --entry-file=index.html
 Pronto! Agora você pode testar todas as funcionalidades da aplicação. 
 ### Vídeo mostrando o projeto: [Assista aqui](nada)
 
+<a id="colaboracao-com-ia"></a>
 # 🤖 Colaboração com IA
 
 Utilizei ferramentas de Inteligência Artificial como apoio no desenvolvimento, especialmente para compreender e aplicar o conceito de SPA (Single Page Application) — algo novo para mim.
@@ -186,6 +190,7 @@ Em resumo, a IA funcionou como uma ferramenta de apoio técnico e criativo, ajud
 
 ⚙️ A IA atuou como um code reviewer técnico, auxiliando na clareza, padronização e consistência do projeto.
 
+<a id="aprendizados"></a>
 # 🧠 Aprendizados
 
 Durante o desenvolvimento do Referral System, aprofundei conhecimentos em:
@@ -200,6 +205,7 @@ Durante o desenvolvimento do Referral System, aprofundei conhecimentos em:
 
 - Uso de ferramentas de IA.
 
+<a id="autor"></a>
 # 👨‍💻 Autor
 Desenvolvido por Guilherme Garcia Monteiro.
 
