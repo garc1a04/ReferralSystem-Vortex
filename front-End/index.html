@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Referral System</title>
+    <meta name="description" content="Acesse seu painel e veja suas referências em nosso sistema.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Rubik:wght@700&family=Manrope:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=visibility,visibility_off"/>
+    
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/varibles.css">
+    <link rel="stylesheet" href="css/authentication.css">
+    <link rel="stylesheet" href="css/profile.css">
+<body>
+    <div id="alert" class="Alert hidden"></div>
+    <div id="demo"></div>
+
+    <main id="app-root">
+        <section id="login" class="page auth-page">
+            <header class="header">
+                <nav class="list">
+                    <div class="logo__header">
+                        <p class="list__title">ReferralSystem</p>
+                    </div>
+                    <ul class="list__items">
+                        <li><a href="/register" class="list__link">Sign Up</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <div class="main">
+                <section class="main__authentication">
+                    <div class="authentication__informations">
+                        <h1 class="authentication__title">Login</h1>
+                        <p class="authentication__paragraph">Welcome! Please log in to view your referrals!</p>
+                    </div>
+
+                    <form class="form" id="login_form">
+                        <label for="email" class="form__label">E-mail</label>
+                        <input id="email" class="form__input" type="text" placeholder="Enter your e-mail" autocomplete="text">
+
+                        <label for="password" class="form__label">Password</label>
+                        <div class="password__div">
+                            <button id="toggle__password" class="toggle" type="button" aria-pressed="false" aria-label="Mostrar senha">
+                                <span class="material-symbols-outlined toggle__password">visibility_off</span>
+                            </button>
+                            
+                            <input id="password" class="form__input" type="password" placeholder="Enter your password" autocomplete="current-password">
+                        </div>
+                        
+                        <p class="Err1 Err hidden">Encontrei um erro</p>
+                        <button type="submit" id="login_button" class="form__submit">Log In</button>
+                    </form>
+                </section>
+            </div>
+        </section>
+
+        <section id="register" class="page auth-page">
+            <header class="header">
+                <nav class="list">
+                    <div class="logo__header">
+                        <p class="list__title">ReferralSystem</p>
+                    </div>
+                    <ul class="list__items">
+                        <li><a href="/login" class="list__link">Login</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <div class="main">
+                <section class="main__authentication">
+                    <div class="authentication__informations">
+                        <h1 class="authentication__title">Sign Up</h1>
+                        <p class="authentication__paragraph">Create your account to start referring!</p>
+                    </div>
+
+                    <form class="form" id="register_form">
+                        <label for="name" class="form__label">Name</label>
+                        <input id="name" class="form__input" type="text" name="name" placeholder="Type your name" autocomplete="name">
+                        
+                        <label for="email_register" class="form__label">E-mail</label>
+                        <input id="email_register" class="form__input" type="text" name="email" placeholder="Type your e-mail" autocomplete="text">
+                        
+                        <label for="password_register" class="form__label">Password</label>
+                        <div class="password__div">
+                            <button id="toggle__password_register" class="toggle" type="button" aria-pressed="false" aria-label="Mostrar senha">
+                                <span class="material-symbols-outlined toggle__password_register">visibility_off</span>
+                            </button>
+                            
+                            <input id="password_register" class="form__input" type="password" name="password" placeholder="Type your password" autocomplete="new-password">
+                        </div>
+                        
+                        <label for="password_confirm" class="form__label">Confirm Password</label>
+                        <div class="password__div">
+                            <button id="toggle__password_confirm" class="toggle" type="button" aria-pressed="false" aria-label="Mostrar senha">
+                                <span class="material-symbols-outlined toggle__password_confirm">visibility_off</span>
+                            </button>
+                            <input id="password_confirm" class="form__input" type="password" name="password_confirm" placeholder="Confirm your password" autocomplete="new-password">
+                        </div>
+
+                        <p class="Err2 Err hidden"></p>
+                        <button id="register_button" type="submit" class="form__submit">Sign Up</button>
+                    </form>
+                </section>
+            </div>
+        </section>
+
+        <section id="profile" class="page">
+            <header class="header_profile">
+                <nav class="list_profile">
+                    <div class="logo__header_profile">
+                        <p class="list__icon_profile">ReferralSystem</p>
+                    </div>
+                    <ul class="list__items_profile">
+                        <li>
+                            <p id="profile-name"></p>
+                        </li>
+                        <li>
+                            <a href="/logout" class="list__link_a" aria-label="Logout">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill=""><path d="M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h280v80H200v560h280v80H200Zm440-160-55-58 102-102H360v-80h327L585-622l55-58 200 200-200 200Z"/></svg>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+
+            <div class="container">
+                <h1 class="title">Referral System</h1>
+
+                <div class="stats-card">
+                    <div class="stat">
+                        <p class="stat-label">Points</p>
+                        <p id="profile-points" class="stat-value"></p>
+                    </div>
+                </div>
+
+                <div class="referral-link">
+                    <p>Your referral link</p>
+                    <div class="link-box">
+                        <input id="profile-copylink" type="text" value="" readonly>
+                        <button id="copy" class="copy-btn">Copy</button>
+                    </div>
+                </div>
+
+                <div class="table-card">
+                    <h2>My Referrals</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Date</th>
+                                <th>User</th>
+                                <th>Code</th>
+                            </tr>
+                        </thead>
+                        <tbody id="body_table">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://unpkg.com/jparticles/browser/jparticles.all.js" defer></script>
+    <script src="js/JParticles.js" defer></script>
+    <script src="js/profile.js" type="module" defer></script>
+    <script src="js/index.js" type="module" defer></script>
+</body>
+</html>
