@@ -9,12 +9,10 @@ Uma aplicação web **SPA (Single Page Application)** completa que permite o cad
 1. [Visão Geral do Projeto](#-visão-geral-do-projeto)
 2. [Funcionalidades](#-funcionalidades)
 3. [Arquitetura e Tecnologias Utilizadas](#-arquitetura-e-tecnologias-utilizadas)
-4. [Por que escolhi essas tecnologias](#-por-que-escolhi-essas-tecnologias)
-5. [Como Executar o Projeto Localmente](#️-como-executar-o-projeto-localmente)
-6. [Demonstração em Vídeo](#-demonstração-em-vídeo)
-7. [Colaboração com IA 🤖](#-colaboração-com-ia-)
-8. [Aprendizados](#-aprendizados)
-9. [Autor](#-autor)
+4. [Como Executar o Projeto Localmente](#️-como-executar-o-projeto-localmente)
+5. [Colaboração com IA 🤖](#-colaboração-com-ia-)
+6. [Aprendizados](#-aprendizados)
+7. [Autor](#-autor)
 
 ---
 
@@ -24,7 +22,7 @@ O Referral System é uma aplicação de página única que simula um sistema de 
 
 ---
 
-## ⚙️ Funcionalidades
+# ⚙️ Funcionalidades
 
 - ✅ Autenticação Segura: Cadastro e Login de usuários com validação de dados em tempo real.
 
@@ -160,7 +158,8 @@ live-server --port=5500 --entry-file=index.html
 ```
 - O navegador abrirá automaticamente a aplicação em um endereço como http://127.0.0.1:5500.
 
-### Pronto! Agora você pode testar todas as funcionalidades da aplicação.
+Pronto! Agora você pode testar todas as funcionalidades da aplicação. 
+### Vídeo mostrando o projeto: [Assista aqui](nada)
 
 # 🤖 Colaboração com IA
 
