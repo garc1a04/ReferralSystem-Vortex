@@ -1,3 +1,5 @@
+import { showAlert } from "./UI.js";
+
 export function saveAuth(data) {
     localStorage.setItem("auth_token", data.token);
     localStorage.setItem("auth_user", JSON.stringify({

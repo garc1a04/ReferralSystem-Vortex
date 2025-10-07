@@ -60,13 +60,13 @@ public class UsersServices {
     
     public UserResponseDTO loginUser(Users loginRequest) {
     	Users user = usersRepository.findByEmail(loginRequest.getEmail())
-    			.orElseThrow(() -> new RuntimeException("Usuário não encontrado."));
+    			.orElseThrow(() -> new RuntimeException("User not found."));
     	
     	boolean matches = 
     			SecurityConfig.passwordEnconder().matches(loginRequest.getPassword(), user.getPassword());
     	
     	if (!matches) {
-    		throw new RuntimeException("Senha incorreta.");
+    		throw new RuntimeException("Incorrect password.");
     	}
     	
     	UserResponseDTO response = new UserResponseDTO(user,JwtUtil.generateToken(user.getEmail(), user.getIdUser()),referralsService.getReferralsPoints(user));
