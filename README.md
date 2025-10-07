@@ -204,7 +204,7 @@ Durante o desenvolvimento do Referral System, aprofundei conhecimentos em:
 - Validação e tratamento de erros full-stack.
 
 - Uso de ferramentas de IA.
-- 
+
 <a id="autor"></a>
 # 👨‍💻 Autor
 Desenvolvido por Guilherme Garcia Monteiro.
