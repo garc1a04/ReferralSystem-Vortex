@@ -121,7 +121,7 @@ Siga os passos abaixo para configurar e rodar a aplicação em seu ambiente de d
 #### 1. Clone o repositório
 ```bash
 git clone https://github.com/garc1a04/ReferralSystem-Vortex.git
-cd referral-system
+cd ReferralSystem-Vortex
 ```
 
 ### 2. Configure o Back-end
