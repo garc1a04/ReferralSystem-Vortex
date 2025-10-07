@@ -21,7 +21,6 @@ public class JwtAuthFilter extends OncePerRequestFilter {
 
         if (authHeader != null && authHeader.startsWith("Bearer ")) {
             String token = authHeader.substring(7);
-            System.out.println(token);
             
             if (JwtUtil.validateToken(token)) {
                 String email = JwtUtil.getEmailFromToken(token);
