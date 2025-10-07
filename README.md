@@ -120,7 +120,7 @@ Siga os passos abaixo para configurar e rodar a aplicação em seu ambiente de d
 
 #### 1. Clone o repositório
 ```bash
-git clone https://github.com/SEU-USUARIO/referral-system.git
+git clone https://github.com/garc1a04/ReferralSystem-Vortex.git
 cd referral-system
 ```
 
