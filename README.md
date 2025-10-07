@@ -23,7 +23,7 @@ O Referral System é uma aplicação de página única que simula um sistema de 
 ---
 
 <a id="funcionalidades"></a>
-## ⚙️ Funcionalidades {#funcionalidades}
+## ⚙️ Funcionalidades
 
 - ✅ Autenticação Segura: Cadastro e Login de usuários com validação de dados em tempo real.
 
